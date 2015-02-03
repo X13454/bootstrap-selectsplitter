@@ -1,5 +1,7 @@
 # bootstrap-selectsplitter
 
+## Presentation
+
 Transforms SELECT containing one or more OPTGROUP in two chained SELECT.
 
 This:
@@ -9,6 +11,10 @@ This:
 Becomes this:
 
 ![image2](http://img4.hostingpics.net/pics/997752bootstrapselectsplitterimage2.png)
+
+## Demo
+
+See the [online demo](http://jsfiddle.net/ae7fxdyy/).
 
 ## How to use
 
@@ -56,7 +62,9 @@ bower install bootstrap-selectsplitter
 
 ##CDN
 
-Coming ... :-)
+```HTML
+<script src="//cdn.jsdelivr.net/bootstrap.selectsplitter/0.1.0/bootstrap-selectsplitter.min.js"></script>
+```
 
 ## Copyright and license
 
