@@ -55,11 +55,10 @@
             $(this).find('option').each(function() {
                 self.fullCategoryList[$that.attr('label')][$(this).attr('value')] = $(this).text();
                 currentOptionCount++;
-
-
             });
 
             if (currentOptionCount > longestOptionCount) { longestOptionCount = currentOptionCount ;}
+
             optgroupCount++;
         });
 
@@ -78,12 +77,12 @@
 
         // Define selected elements.
         self.$wrapper = $('div[data-selectsplitter-wrapper-selector]');
-        console.log(self.$wrapper);
+        
         self.$firstSelect = $('div[data-selectsplitter-wrapper-selector] select[data-selectsplitter-firstselect-selector]');
         self.$secondSelect = $('div[data-selectsplitter-wrapper-selector] select[data-selectsplitter-secondselect-selector]');
         
         // Define $firstSelect and $secondSelect size attribute
-        var selectSize = Math.max(optgroupCount, longestOptionCount);
+        var selectSize = Math.max(optgroupCount, longestOptionCount, 2);
         selectSize = Math.min(selectSize, 10);
         self.$firstSelect.attr('size', selectSize);
         self.$secondSelect.attr('size', selectSize);
