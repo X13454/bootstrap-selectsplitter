@@ -66,6 +66,13 @@ bower install bootstrap-selectsplitter
 <script src="//cdn.jsdelivr.net/bootstrap.selectsplitter/0.1.0/bootstrap-selectsplitter.min.js"></script>
 ```
 
+##Changes
+
+0.1.1 : Minimum "size" attribute for both select tags has been set to "2" ([Issue 1](https://github.com/xavierfaucon/bootstrap-selectsplitter/issues/1))
+
+0.1.0 : Initial release
+
+
 ## Copyright and license
 
 Copyright (C) 2015 Xavier Faucon
