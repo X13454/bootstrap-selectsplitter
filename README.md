@@ -2,7 +2,7 @@
 
 ## Presentation
 
-Transforms SELECT containing one or more OPTGROUP in two chained SELECT.
+Transforms a &lt;select&gt; containing one or more &lt;optgroup&gt; in two chained &lt;select&gt;.
 
 This:
 
@@ -18,7 +18,7 @@ See the [online demo](http://jsfiddle.net/ae7fxdyy/).
 
 ## How to use
 
-Create a SELECT tag containing one or more OPTGROUP:
+Create a &lt;select&gt; containing one or more &lt;optgroup&gt;:
 
 ```HTML
 <select data-selectsplitter-selector>
