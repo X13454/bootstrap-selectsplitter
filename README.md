@@ -20,7 +20,7 @@ See the [online demo](http://jsfiddle.net/ae7fxdyy/).
 
 Create a &lt;select&gt; with at least one &lt;optgroup&gt;:
 
-NB: each &lt;option&gt; of your select must have a unique value.
+NB: each &lt;option&gt; of your &lt;select&gt; must have a unique value.
 
 ```HTML
 <select data-selectsplitter-selector>
