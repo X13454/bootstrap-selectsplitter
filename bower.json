@@ -1,6 +1,5 @@
 {
   "name": "bootstrap-selectsplitter",
-  "version": "0.1.1",
   "main": [
     "bootstrap-selectsplitter.js"
   ],
