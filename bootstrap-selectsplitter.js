@@ -52,13 +52,21 @@
             var $that = $(this);
             
             var currentOptionCount = 0;
+            var temporaryFullCategoryList = {};
             $(this).find('option').each(function() {
-                self.fullCategoryList[$that.attr('label')][$(this).attr('value')] = $(this).text();
+                var x = $(this).attr('value');
+                var y = $(this).text();
+                temporaryFullCategoryList[$(this).index()] = { 
+                                                                'x': x, 
+                                                                'y': y 
+                                                              };
                 currentOptionCount++;
             });
 
             if (currentOptionCount > longestOptionCount) { longestOptionCount = currentOptionCount ;}
-
+            
+            self.fullCategoryList[$that.attr('label')] = temporaryFullCategoryList;
+                        
             optgroupCount++;
         });
 
@@ -128,8 +136,8 @@
         
         for (var key in self.fullCategoryList[self.currentParentCategory]) {
             if (self.fullCategoryList[self.currentParentCategory].hasOwnProperty(key)) {
-                optionsHtml = optionsHtml + '<option value="' + key + '">' +
-                                                self.fullCategoryList[self.currentParentCategory][key] +                            
+                optionsHtml = optionsHtml + '<option value="' + self.fullCategoryList[self.currentParentCategory][key]['x'] + '">' +
+                                                self.fullCategoryList[self.currentParentCategory][key]['y'] +                            
                                             '</option>';
             }
         }
