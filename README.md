@@ -70,6 +70,8 @@ bower install bootstrap-selectsplitter
 
 ##Changes
 
+0.1.2 : Option elements are now displayed by index ([Issue 3](https://github.com/xavierfaucon/bootstrap-selectsplitter/issues/3))
+
 0.1.1 : Minimum "size" attribute for both select tags has been set to "2" ([Issue 1](https://github.com/xavierfaucon/bootstrap-selectsplitter/issues/1))
 
 0.1.0 : Initial release
