@@ -65,7 +65,7 @@ bower install bootstrap-selectsplitter
 ##CDN
 
 ```HTML
-<script src="//cdn.jsdelivr.net/bootstrap.selectsplitter/0.1.1/bootstrap-selectsplitter.min.js"></script>
+<script src="//cdn.jsdelivr.net/bootstrap.selectsplitter/0.1.2/bootstrap-selectsplitter.min.js"></script>
 ```
 
 ##Changes
