@@ -70,8 +70,8 @@ bower install bootstrap-selectsplitter
 
 ##Changes
 0.1.3 : Resolves two issues with the plugin
-  - Plugin now work properly when used multiple times on the same page.
-  - Two jQuery selectors have been corrected.
+  - Plugin now work properly when used multiple times on the same page. ([Issue 6](https://github.com/xavierfaucon/bootstrap-selectsplitter/issues/6))
+  - Two jQuery selectors have been corrected. ([Issue 5](https://github.com/xavierfaucon/bootstrap-selectsplitter/issues/5))
 
 0.1.2 : Option elements are now displayed by index ([Issue 3](https://github.com/xavierfaucon/bootstrap-selectsplitter/issues/3))
 
