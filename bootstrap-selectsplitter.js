@@ -1,6 +1,8 @@
 +function ($) {
   'use strict';
 
+ 	// Minified with jscompress.com
+
     // CLASS DEFINITION
     // ===============================
     
@@ -84,10 +86,9 @@
         
 
         // Define selected elements.
-        self.$wrapper = $('div[data-selectsplitter-wrapper-selector]');
-        
-        self.$firstSelect = $('div[data-selectsplitter-wrapper-selector] select[data-selectsplitter-firstselect-selector]');
-        self.$secondSelect = $('div[data-selectsplitter-wrapper-selector] select[data-selectsplitter-secondselect-selector]');
+        self.$wrapper = self.$element.next('div[data-selectsplitter-wrapper-selector]'); // improved by keenthemes
+        self.$firstSelect = $('select[data-selectsplitter-firstselect-selector]', self.$wrapper); // improved by keenthemes
+        self.$secondSelect = $('select[data-selectsplitter-secondselect-selector]', self.$wrapper); // improved by keenthemes
         
         // Define $firstSelect and $secondSelect size attribute
         var selectSize = Math.max(optgroupCount, longestOptionCount, 2);
@@ -145,7 +146,7 @@
         self.$secondSelect.append(optionsHtml);
         
         if ( self.$selectedOption ) {
-            self.$secondSelect.find( 'option[value=' + self.$selectedOption.attr('value') + ']' ).attr('selected', 'selected');
+            self.$secondSelect.find( 'option[value="' + self.$selectedOption.attr('value') + '"]' ).attr('selected', 'selected');
         }
     };
     
@@ -160,7 +161,7 @@
         self.$element.find('option[selected=selected]').removeAttr('selected');
 
         // Add selected attribute to the new selected OPTION.
-        self.$element.find('option[value=' + self.currentChildCategory + ']').attr('selected', 'selected'); // Note: Adding attr also updates val().
+        self.$element.find('option[value="' + self.currentChildCategory + '"]').attr('selected', 'selected'); // Note: Adding attr also updates val().
         self.$element.trigger('change'); // Required for external plugins.
 
         self.$selectedOption = self.$element.find('option[selected=selected]');
