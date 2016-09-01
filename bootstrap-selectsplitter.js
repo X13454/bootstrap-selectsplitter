@@ -161,6 +161,7 @@
         self.$element.find('option[selected=selected]').removeAttr('selected');
 
         // Add selected attribute to the new selected OPTION.
+        self.$element[0].value = self.currentChildCategory; // Note: Below line of code alone was not working when going back to a previously selected option
         self.$element.find('option[value="' + self.currentChildCategory + '"]').attr('selected', 'selected'); // Note: Adding attr also updates val().
         self.$element.trigger('change'); // Required for external plugins.
 
