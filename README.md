@@ -65,10 +65,12 @@ bower install bootstrap-selectsplitter
 ##CDN
 
 ```HTML
-<script src="//cdn.jsdelivr.net/bootstrap.selectsplitter/0.1.2/bootstrap-selectsplitter.min.js"></script>
+<script src="//cdn.jsdelivr.net/bootstrap.selectsplitter/0.1.4/bootstrap-selectsplitter.min.js"></script>
 ```
 
 ##Changes
+0.1.4 : Resolves an issue when selecting a first option, then another one then selecting the first one again. ([Issue 9](https://github.com/xavierfaucon/bootstrap-selectsplitter/issues/9))
+
 0.1.3 : Resolves two issues with the plugin
   - Plugin now work properly when used multiple times on the same page. ([Issue 6](https://github.com/xavierfaucon/bootstrap-selectsplitter/issues/6))
   - Two jQuery selectors have been corrected. ([Issue 5](https://github.com/xavierfaucon/bootstrap-selectsplitter/issues/5))
