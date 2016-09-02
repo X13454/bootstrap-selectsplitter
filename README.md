@@ -14,7 +14,7 @@ Becomes this:
 
 ## Demo
 
-See the [online demo](http://jsfiddle.net/ae7fxdyy/7/).
+See the [online demo](http://jsfiddle.net/ae7fxdyy/98/).
 
 ## How to use
 
