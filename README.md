@@ -62,13 +62,13 @@ $('select[data-selectsplitter-selector]').selectsplitter();
 ## Bower
 bower install bootstrap-selectsplitter
 
-##CDN
+## CDN
 
 ```HTML
 <script src="//cdn.jsdelivr.net/bootstrap.selectsplitter/0.1.4/bootstrap-selectsplitter.min.js"></script>
 ```
 
-##Changes
+## Changes
 0.1.4 : Resolves an issue when selecting a first option, then another one then selecting the first one again. ([Issue 9](https://github.com/xavierfaucon/bootstrap-selectsplitter/issues/9))
 
 0.1.3 : Resolves two issues with the plugin
