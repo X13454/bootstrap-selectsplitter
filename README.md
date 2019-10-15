@@ -1,5 +1,7 @@
 # bootstrap-selectsplitter
 
+Looking for a maintainer! Contact me through the "Issues" of this repo.
+
 ## Presentation
 
 Transforms a &lt;select&gt; containing one or more &lt;optgroup&gt; in two chained &lt;select&gt;.
