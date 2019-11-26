@@ -28,7 +28,6 @@
                     '</div>'
     };
   
-    /* Note: Est appelé par la fonction définie en var */
     SelectSplitter.prototype.init = function (type, element, options) {
         
         // Initial variables.
@@ -132,7 +131,6 @@
         
         self.$secondSelect.empty();
 
-        // Définit la liste de I pour les icônes à afficher en fonction de la page.
         var optionsHtml = '';
         
         for (var key in self.fullCategoryList[self.currentParentCategory]) {
