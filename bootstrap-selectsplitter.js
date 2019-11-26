@@ -118,7 +118,7 @@
             self.currentParentCategory = self.$selectedOption.closest('optgroup').attr('label');
             self.currentChildCategory = self.$selectedOption.attr('value');
             
-            self.$firstSelect.find('option:contains('+ self.currentParentCategory +')').attr('selected', 'selected');
+            self.$firstSelect.val(self.currentParentCategory);
             self.$firstSelect.trigger('change');
         }
     };
@@ -188,7 +188,7 @@
 
             var options = typeof option === 'object' && option;
 
-            if (!data && option == 'destroy') { return; }
+            if (!data && option === 'destroy') { return; }
             if (!data) { $this.data('selectsplitter', ( data = new SelectSplitter(this, options) ) ); }
             if (typeof option == 'string') { data[option](); }
         });
@@ -200,4 +200,3 @@
   
 
 }(jQuery);
-    
