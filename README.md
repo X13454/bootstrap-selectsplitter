@@ -67,26 +67,26 @@ bower install bootstrap-selectsplitter
 ## CDN
 
 ```HTML
-<script src="//cdn.jsdelivr.net/gh/xavierfaucon/bootstrap-selectsplitter@0.1.4/bootstrap-selectsplitter.min.js"></script>
+<script src="//cdn.jsdelivr.net/gh/X13454/bootstrap-selectsplitter@0.1.4/bootstrap-selectsplitter.min.js"></script>
 ```
 
 ## Changes
-0.1.4 : Resolves an issue when selecting a first option, then another one then selecting the first one again. ([Issue 9](https://github.com/xavierfaucon/bootstrap-selectsplitter/issues/9))
+0.1.4 : Resolves an issue when selecting a first option, then another one then selecting the first one again. ([Issue 9](https://github.com/X13454/bootstrap-selectsplitter/issues/9))
 
 0.1.3 : Resolves two issues with the plugin
-  - Plugin now work properly when used multiple times on the same page. ([Issue 6](https://github.com/xavierfaucon/bootstrap-selectsplitter/issues/6))
-  - Two jQuery selectors have been corrected. ([Issue 5](https://github.com/xavierfaucon/bootstrap-selectsplitter/issues/5))
+  - Plugin now work properly when used multiple times on the same page. ([Issue 6](https://github.com/X13454/bootstrap-selectsplitter/issues/6))
+  - Two jQuery selectors have been corrected. ([Issue 5](https://github.com/X13454/bootstrap-selectsplitter/issues/5))
 
-0.1.2 : Option elements are now displayed by index ([Issue 3](https://github.com/xavierfaucon/bootstrap-selectsplitter/issues/3))
+0.1.2 : Option elements are now displayed by index ([Issue 3](https://github.com/X13454/bootstrap-selectsplitter/issues/3))
 
-0.1.1 : Minimum "size" attribute for both select tags has been set to "2" ([Issue 1](https://github.com/xavierfaucon/bootstrap-selectsplitter/issues/1))
+0.1.1 : Minimum "size" attribute for both select tags has been set to "2" ([Issue 1](https://github.com/X13454/bootstrap-selectsplitter/issues/1))
 
 0.1.0 : Initial release
 
 
 ## Copyright and license
 
-Copyright (C) 2015 Xavier Faucon
+Copyright (C) 2015
 
 Licensed under the MIT license. 
 
